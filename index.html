@@ -28,6 +28,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
+            <div class="gnb-wrapper">
             <div class="gnb-left">
               <h1 class="logo">
                 <a href="/">
@@ -45,7 +46,7 @@
               </nav>
 
               <button
-                class="gnb-icon-button sm-only"
+                class="gnb-menu-button gnb-icon-button sm-only"
                 type="button"
                 aria-label="메뉴 열기 버튼"
               >
@@ -65,28 +66,29 @@
 
               <div class="button-group">
                 <button
-                  class="gnb-icon-button lg-hidden"
+                  class="gnb-search-button gnb-icon-button lg-hidden"
                   type="button"
                   aria-label="검색창 열기 버튼"
-                >
-                  <i class="ic-search"></i>
+                > 
+                <i class="ic-search"></i>
                 </button>
 
                 <a
-                  class="gnb-icon-button"
+                  class="gnb-icon-button sm-hidden"
                   href="/"
-                  aria-label="장바구니 페이지로 이동"
+                  aria-label="북마크 페이지로 이동"
                 >
                   <i class="ic-bookmark"></i>
                 </a>
 
                 <a
-                  class="gnb-icon-button"
+                  class="gnb-icon-button sm-hidden"
                   href="/"
-                  aria-label="스크래뿍 페이지로 이동"
+                  aria-label="알림 페이지로 이동"
                 >
                   <i class="ic-bell"></i>
                 </a>
+
 
                 <a
                   class="gnb-icon-button"
@@ -111,9 +113,10 @@
                 글쓰기
                 <i class="ic-chevron" aria-hidden></i>
               </button>
-            </div>
+            </div></gnb>
           </div>
         </div>
+      </div>
       </div>
     </header>
   </body>
